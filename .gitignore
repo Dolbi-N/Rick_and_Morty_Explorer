@@ -1,0 +1,25 @@
+cat > .gitignore << 'EOF'
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.vscode/
+.idea/
+
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+*.log
+EOF

@@ -1,0 +1,30 @@
+[
+    "Rick",
+    "ger",
+    "RICK",
+    "MORTY",
+    {
+        "category": "Character",
+        "search_type": "Filters",
+        "query": {
+            "status": "Dead",
+            "species": "re",
+            "gender": "df"
+        }
+    },
+    {
+        "category": "Character",
+        "search_type": "Filters",
+        "query": "{'status': 'Alive', 'gender': 'Male'}"
+    },
+    {
+        "category": "Location",
+        "search_type": "ID",
+        "query": "4"
+    },
+    {
+        "category": "Episode",
+        "search_type": "ID",
+        "query": "4"
+    }
+]
